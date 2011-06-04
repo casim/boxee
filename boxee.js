@@ -457,7 +457,7 @@ THE_BOXEE_BKMRKLT.init({"logged_in":false,"username":false,"services":[
     {"id":"37","domain":"justin.tv","scrape_url":"","regex":["channel=[a-zA-Z0-9_]+"]},
     {"id":"59","domain":"liveleak.com","scrape_url":"http:\\\/\\\/www\\.liveleak\\.com\\\/view\\?i=(.*?)","regex":["http:\\\/\\\/www\\.liveleak\\.com\\\/e\\\/([a-zA-Z0-9]+_[a-zA-Z0-9]+)","token%3D(.*?)%26"]},
     {"id":"57","domain":"livestream.com","scrape_url":"http:\\\/\\\/www\\.livestream\\.com\\\/(.*?)","regex":["allowChat=.*?&channel=(.*?)&id"]},
-    {"id":"62","domain":"megavideo.com","scrape_url":"http:\\\/\\\/www\\.megavideo\\.com\\\/\\?v=(.*?)","regex":["http:\\\/\\\/wwwstatic\\.megavideo\\.com\\\/mv_player\\.swf"]},
+    {"id":"62","domain":"megavideo.com","scrape_url":"http:\\\/\\\/www\\.megavideo\\.com\\\/\\?v=(.*?)","regex":["http:\\\/\\\/wwwstatic\\.megavideo\\.com\\\/mv_player2\\.swf"]},
     {"id":"18","domain":"metacafe.com","scrape_url":"http:\\\/\\\/(?:\\w+\\.)*metacafe\\.com\\\/watch\\\/([^\\\/]*)","regex":["metacafe\\.com%2Fwatch%2F(.*?)&","www.metacafe.com\\\/watch\\\/(.*?)\"","itemID=([0-9]+)"]},
     {"id":"80","domain":"monocle.com","scrape_url":"http:\\\/\\\/www\\.monocle\\.com\\\/sections\\\/(.*?)\\\/(.*?)\\\/(.*?)\\\/","regex":["\\\/Resources\\\/flash\\\/mvpLite\\.swf"]},
     {"id":"31","domain":"motionbox.com","scrape_url":false,"regex":["videos%2F([a-zA-Z0-9]+)%2Fplayer_manifest","video_uid=([a-zA-Z0-9]+)"]},
@@ -476,6 +476,5 @@ THE_BOXEE_BKMRKLT.init({"logged_in":false,"username":false,"services":[
     {"id":"76","domain":"vevo.com","scrape_url":"http:\\\/\\\/www\\.vevo\\.com\\\/watch\\\/.*?","regex":["thePlayer"]},
     {"id":"19","domain":"viddler.com","scrape_url":"http:\\\/\\\/(?:\\w+\\.)*viddler\\.com.*\\\/videos\\.*","regex":["&key=([a-zA-Z0-9]+)","viddler.com\\\/player\\\/([a-zA-Z0-9]+)","viddler\\.com\\\/simple\\\/([a-zA-Z0-9]+)\\\/"]},
     {"id":"1","domain":"vimeo.com","scrape_url":"http:\\\/\\\/(?:\\w+\\.)*vimeo\\.com\\\/([0-9]+)|http:\\\/\\\/(?:\\w+\\.)*vimeo\\.com.*clip_id=([0-9]+)","regex":["vimeo\\.com\\\/moogaloop\\.swf\\?clip_id=([0-9]+)","clip_id=([0-9]+)&server=vimeo\\.com","clip_id=([0-9]+)"]},
-    {"id":"12","domain":"youtube.com,youtube-nocookie.com","scrape_url":"http:\\\/\\\/(?:\\w+\\.)*youtube\\.com.*v=([\\_\\-a-zA-Z0-9]+)","regex":["&video_id=([\\_\\-a-zA-Z0-9]+)","youtube\\.com\/v\/([\\_\\-a-zA-Z0-9]+)","youtube\\-nocookie\\.com\/v\/([\\_\\-a-zA-Z0-9]+)"]},
-    {"id":"58","domain":"infoq.com","scrape_url":"","regex":["http:\\\/\\\/.*\\.cloudfront\\.net\\\/static\\\/flash\\\/svmplayer\\.swf"]}
+    {"id":"12","domain":"youtube.com,youtube-nocookie.com","scrape_url":"http:\\\/\\\/(?:\\w+\\.)*youtube\\.com.*v=([\\_\\-a-zA-Z0-9]+)","regex":["&video_id=([\\_\\-a-zA-Z0-9]+)","youtube\\.com\/v\/([\\_\\-a-zA-Z0-9]+)","youtube\\-nocookie\\.com\/v\/([\\_\\-a-zA-Z0-9]+)"]}
 ],"log_id":false,"server":"www.boxee.tv"});
